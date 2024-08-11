@@ -21,18 +21,18 @@ class Sidebar extends React.Component {
                 <ul className="list-unstyled ps-0">
                     <li className="mb-1">
                         <Link tag="a" className="" to="/">
-                            <i className="fa fa-dashboard"></i> Dashboard
+                            <i className="fa fa-dashboard"></i> Home
                         </Link>
                     </li>
                     <li className="mb-1">
                         <Link tag="a" className="" to="/blank-page">
-                            <i className="fa fa-file-o"></i> Blank Page
+                            <i className="fa fa-file-o"></i> Users
                         </Link>
                     </li>
-                    <li className="border-top my-3"></li>
+                    {/* <li className="border-top my-3"></li> */}
                     <li className="mb-1">
                         <Link tag="a" className="" to="/typography">
-                        <i className="fa fa-text-width" aria-hidden="true"></i> Typography
+                        <i className="fa fa-text-width" aria-hidden="true"></i> Posts
                         </Link>
                     </li>
                     
@@ -57,7 +57,7 @@ class Sidebar extends React.Component {
             <div className="dropdown fixed-bottom-dropdown">
                 <a href="#" className="d-flex align-items-center text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://via.placeholder.com/50" alt="" width="32" height="32" className="rounded-circle me-2" />
-                    <span>Tarun Dhiman</span>
+                    <span>Yaswanth V</span>
                 </a>
                 <ul className="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
                     <li><Link className="dropdown-item" to="/profile"><i className="fa fa-user-circle" aria-hidden="true"></i> Profile</Link></li>
@@ -70,3 +70,4 @@ class Sidebar extends React.Component {
 }
 
 export default Sidebar;
+
